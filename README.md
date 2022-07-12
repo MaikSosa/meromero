@@ -8,7 +8,7 @@ This is part of a project that has help me develop HTML and CSS my programming s
 
 The logo and photos used in this project were taken and design by Kolton Cannon. All credit goes to him. 
 
-Follow Kolton for more art: https://instagram.com/kolton.art?igshid=YmMyMTA2M2Y=
+Follow Kolton for more art: https://instagram.com/kolton.art
 
 # Development Environment
 
