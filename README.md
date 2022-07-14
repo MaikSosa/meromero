@@ -17,5 +17,5 @@ Follow Kolton for more art: https://instagram.com/kolton.art
 * [Wireframe.cc] (https://wireframe.cc/)
 * Adobe Photoshop
 * [Git] (https://git-scm.com/)
-* [Canva for the designs] (https;//wwww.canva.com/)
+* [Canva for the designs] (https://wwww.canva.com/)
 
