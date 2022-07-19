@@ -98,7 +98,7 @@ nav a{
 
 nav a:hover {
     background-color: grey;
-    max-height: auto;
+    max-height: max-content;
 }
 
 .red {
@@ -109,7 +109,7 @@ nav a:hover {
     color: #ce1616;
 }
 
-#b-tri-line {
+#b-tri-line{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr ;
     grid-template-rows: auto auto auto;
