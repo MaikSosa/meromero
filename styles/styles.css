@@ -5,28 +5,25 @@
 
 }
 
-a, p, h1, h2{
+a, p, h1, h2, h3{
     font-family: acumin-pro, sans-serif;
+    margin: 0;
 }
 
 #homecontent{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 3fr auto;
 }
 
 header {
-    grid-column: 1/3;
     grid-row: 1/2;
 }
 
-main {
-    grid-column: 1/3;
+main{
     grid-row: 2/3;
 }
 
 footer {
-    grid-column: 1/3;
     grid-row: 3/4;
 }
 
@@ -109,6 +106,118 @@ nav a:hover {
     color: #ce1616;
 }
 
+.main-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    grid-gap: 20px;
+}
+
+#message_latest{
+    margin: auto;
+    grid-column: 1/5;
+    grid-row: 1/3;
+}
+
+#message_latest p{
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 200px;
+}
+
+#message_latest h3{
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#message_latest h2{
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 30px;
+    color:#ce1616;
+}
+
+#latest{
+    grid-column: 1/5;
+    grid-row: 2/6;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.bearings{
+    grid-column: 5/11;
+    grid-row: 1/3;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.store{
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.title-1 {
+    margin-top: 10px;
+    grid-column: 5/8;
+    grid-row: 3/4;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title-2 {
+    margin-top: 10px;
+    grid-column: 8/11;
+    grid-row: 3/4;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.fill {
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    grid-column: 5/11;
+    grid-row: 5/6;
+}
+
+.fill2 {
+    margin-top: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    grid-column: 1/5;
+    grid-row: 5/6;
+}
+
+.best_seller1 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 5/8;
+    grid-row: 4/5;
+}
+
+.best_seller2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 8/11;
+    grid-row: 4/5;
+}
+
 #b-tri-line{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr ;
@@ -162,4 +271,5 @@ nav a:hover {
     background-color: black;
     font-size: 40px;
 }
+
 
